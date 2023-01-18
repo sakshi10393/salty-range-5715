@@ -1,0 +1,18 @@
+html, body{
+    height:80%;
+    width:80%
+}
+.left img{
+    width: 40px;
+    height:40px;
+}
+
+
+.header{
+    max-width:80vw;
+    margin: auto;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
