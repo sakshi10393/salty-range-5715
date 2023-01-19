@@ -18,3 +18,8 @@
 .semibold{
     font-weight: bolder;
 }
+
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+}
