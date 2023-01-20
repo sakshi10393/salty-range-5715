@@ -25,15 +25,39 @@
                     <li>Releases</li>
                     <li>Brands</li>
                     <li>Sale</li>
-                    <input placeholder="search" class="desktop-searchBar"  value="" data-reactid="904"/>
+                    <div id="searchBar"><input placeholder="search" class="desktop-searchBar"  value="" data-reactid="904"/></div>
+                    
                     </ul></div>
                     
             
                 
                     <div class="right flex">
                         
-                        <div class="wishlist mx-2 ">Wishlist</div>
-                        <div class="bag mx-2 ">Bag</div>
+                        <div class="wishlist">
+                            <img src="images\heart_Image.png">
+                        </div>
+                        <div class="wishlist">
+                            <img src="images\cart.png">
+                        </div>
+                        
+                        <div id="login">
+                            <button class="open-button" onclick="openForm()">Welcome,Sign In</button>
+
+<div class="form-popup" id="myForm">
+  <form action="" class="form-container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" id="nameValue" name="email" required/>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="text" placeholder="Enter Password" id="pasValue" name="psw" required/>
+
+    <button type="submit" class="btn" onclick="formValue()">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+                        </div>
               
                 </div>
             </nav>
@@ -41,22 +65,47 @@
 
         <section class="container section1">
             <img id="footimg" src="./images/1foot.jpg">
-            <div><h1>Winter Essentials</h1>
+            
+            <img id="footing"
+             src="https://images.footlocker.com/content/dam/final/footlocker/site/backpages/2022/asp/221117-fl-winter-essentials-asp.jpg"/>
+        </section>
+        <div><h1>Winter Essentials</h1>
             <h5>showing 1-48 of 297 results</h5>
             </div>
-            <div><h2>Refine results</h2></div>
-            <img id="footing"
-             src="https://images.footlocker.com/content/dam/final/footlocker/site/backpages/2022/asp/221117-fl-winter-essentials-asp.jpg">
-        </section>
-        
-        <div>
-            <h3>GENDER     </h3>
-            <h3>AGE RANGE </h3>
-            <h3>PRODUCT TYPE</h3>
-            <h3>BRAND</h3>
-            <h3>SPORT</h3>
-            <h3>COLOR</h3>
-            <h3>PRICE</h3>
+        <div class="main">
+            <div class="main_1st">
+                <h2>Refine results</h2>
+            <h2 id="optionss" >
+                <select id="options">
+                    <option>
+                        Initial results
+                    </option>
+                    <option>
+                        Alphabetical (A to Z)
+                    </option>
+                    <option>
+                        New Arrivals
+                    </option>
+                    <option>
+                        Price (Low to High)
+                    </option>
+                    <option>
+                        Price(High to Low)
+                    </option>
+                    <option>
+                        Top Sellers
+                    </option>
+
+                </select>
+            </h2>
+            </div>
+
+            <div class="main_2nd">
+                <div class="filters">
+                    
+                </div>
+                <div class="products"></div>
+            </div>
             
         </div>
        
