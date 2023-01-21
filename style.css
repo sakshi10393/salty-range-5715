@@ -154,3 +154,128 @@ body {font-family: Arial, Helvetica, sans-serif;}
   opacity: 1;
 }
 /* login page styling end */
+
+.footer {
+  /* height: 500px; */
+  max-width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  color:white
+}
+.footer_1 p {
+  font-size: 0.875rem;
+font-weight: 500;
+}
+.footer_1 button {
+  /* background-color: black; */
+  border: 2px solid black;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border-color: white;
+  margin-bottom: 15%;
+}
+
+.footer_1 :first-child{
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.red {
+  background-color: red;
+  height: 3px;
+  width: 15px;
+}
+.category {
+  display: flex;
+}
+.category_1 img{
+  max-width: 100%;
+height: auto;
+}
+.category_1 p {
+  text-align: center;
+  text-decoration: underline;
+}
+.brand_Logo {
+  display: flex;
+  margin-bottom:25px ;
+}
+.brand_Logo img {
+  width: 200px;
+  margin: auto;
+}
+.three_images {
+  display: flex;
+  max-width: 100%;
+height: auto;
+
+}
+.three_images div {
+  margin: 2%;
+}
+.three_images img {
+  max-width: 100%;
+  height: auto;
+}
+.three_images h1 {
+  /* font-weight: 2000; */
+  font-size: 30px;
+  text-align: center;
+}
+.three_images p {
+  text-decoration: underline;
+  color: blue;
+  text-align: center;
+}
+#new {
+  font-size: 30px;
+  text-align: center;
+}
+#shoes {
+  display: flex;
+}
+#shoes div img {
+  max-width: 100%;
+  height: auto;
+}
+#shoes div p {
+  text-align: center;
+} 
+.bannner {
+  position: relative;
+text-align: center;
+color: white;
+}
+.bottom-left {
+position: absolute;
+bottom: 8px;
+left: 16px;
+}
+.bannner img {
+  width: 100%;
+}
+
+#last {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+}
+#last div {
+  max-width: 100%;
+  height: auto;
+  margin: 2%;
+  text-align: center;
+}
+#last div img {
+  width: 400px;
+  height: auto;
+}
+
+#last div :last-child {
+  text-decoration: underline;
+  color: blue
+    
+}
+
